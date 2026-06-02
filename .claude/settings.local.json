@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(node -e \"console.log\\('next', require\\('next/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\('react', require\\('react/package.json'\\).version\\); console.log\\('next', require\\('next/package.json'\\).version\\)\")",
+      "Bash(node scripts/optimize-images.mjs)",
+      "Bash(npm run *)",
+      "Bash(node \"node_modules/next/dist/bin/next\" build)",
+      "Bash(node \"node_modules/next/dist/bin/next\" start -p 3100)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(npm run build 2>&1)",
+      "Bash(node -e \"const sharp=require\\('sharp'\\); sharp\\('gambar/Rolun menu/MENU ROLUN BOJONGSOANG_pages-to-jpg-0001.jpg'\\).metadata\\(\\).then\\(m=>console.log\\(m.width,m.height\\)\\)\")",
+      "Bash(node -e \"const sharp=require\\('sharp'\\); sharp\\('gambar/Rolun menu/MENU ROLUN BOJONGSOANG_pages-to-jpg-0001.jpg'\\).extract\\({left:220,top:257,width:800,height:800}\\).png\\(\\).toFile\\('/tmp/logo-test.png'\\).then\\(\\(\\)=>console.log\\('ok'\\)\\).catch\\(e=>console.log\\(e.message\\)\\)\")",
+      "Bash(node -e \"const sharp=require\\('sharp'\\); sharp\\('gambar/Rolun menu/MENU ROLUN BOJONGSOANG_pages-to-jpg-0001.jpg'\\).extract\\({left:220,top:257,width:800,height:800}\\).png\\(\\).toFile\\('logo-test.png'\\).then\\(\\(\\)=>console.log\\('ok'\\)\\).catch\\(e=>console.log\\(e.message\\)\\)\")",
+      "Bash(node -e \"const sharp=require\\('sharp'\\); sharp\\('gambar/Rolun menu/MENU ROLUN BOJONGSOANG_pages-to-jpg-0001.jpg'\\).extract\\({left:360,top:330,width:420,height:420}\\).png\\(\\).toFile\\('logo-mark-test.png'\\).then\\(\\(\\)=>console.log\\('ok'\\)\\).catch\\(e=>console.log\\(e.message\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(du -sh node_modules)",
+      "Bash(du -sh .next)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

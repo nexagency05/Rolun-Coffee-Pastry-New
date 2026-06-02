@@ -1,0 +1,29 @@
+{
+  "name": "rolun-coffee-pastry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website for Rolun Coffee & Pastry — a premium coffee shop in Bojongsoang, Bandung.",
+  "scripts": {
+    "dev": "node node_modules/next/dist/bin/next dev",
+    "build": "node node_modules/next/dist/bin/next build",
+    "start": "node node_modules/next/dist/bin/next start",
+    "images": "node scripts/optimize-images.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.18.0",
+    "lucide-react": "^0.469.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
